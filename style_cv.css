@@ -1,0 +1,85 @@
+* {  margin: 10; padding: 10; box-sizing: border-box; }
+body{
+  background-color: rgb(168, 225, 248);
+}
+
+#encabezado{
+  display: flex;
+  color: white;
+  background-image: url(./imagen/software-testing-1400x5651.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 50px 20px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index:1;
+}
+
+#encabezado img{
+  width: 200px;
+  height: 200px;
+ border-radius: 120px;
+}
+
+#principal{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+h1{
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 2rem;
+  text-align: center;
+}
+
+#logo-yo{
+  width: 150px;
+  height: 150px;
+}
+
+#resumen{
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.areas{
+  border: 7px solid royalblue;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.areas h2{
+  text-align: center;
+}
+#contact{
+  justify-content: center;
+  text-align: center;
+ }
+
+ #nomb{
+  margin: 20px;
+ }
+
+ #mesaje{
+  margin: 20px;
+ }
+
+ button{
+  margin: 20px;
+  border-radius: 5px;
+ }
+
+ footer{
+  text-align: center;
+ }
